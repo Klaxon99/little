@@ -1,0 +1,41 @@
+.last{
+    flex: 1;
+}
+
+.author__filter__wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.author__filter__title{
+    line-height: 21px;
+    color: #545353;
+    margin-right: 70px;
+}
+
+.author__filter{
+    position: relative;
+    width: 255px;
+    height: 40px;
+    padding-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;   
+    color: #C4C4C4;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.author__filter__row{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+}

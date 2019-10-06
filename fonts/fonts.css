@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("./Helvetica.otf") format("opentype");
+   }
+
+@font-face {
+    font-family: 'Melissa Script';
+    src: url("./LovelyMelissa.otf") format("opentype");
+}

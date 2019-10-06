@@ -1,0 +1,54 @@
+.subscribe{
+    margin-bottom: 24px;
+}
+
+.subscribe__list{
+    display: flex;
+}
+
+.subscribe__list__item{
+    max-width: 209px;
+    max-height: 209px;
+    margin-right: 20px;
+    display: grid;
+    &:last-child{
+        margin-right: 0 ;
+    }
+}
+
+.subscribe__list__item__area{
+    flex: 1;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe__img{
+    max-width: 100%;
+}
+
+.follow__title{
+    font-size: 30px;
+    color: #000000;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+
+.follow-btn{
+    width: 155px;
+    height: 49px;
+    background: #E0C0C3;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.hover__area{
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,105 @@
+html{
+    font-family: Helvetica;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    color: #545353;
+}
+
+.main{
+    flex: 1;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.breadcrumb_list{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.breadcrumb_list__item{
+    & a{
+        text-decoration: none;
+    color: #545353;
+    }
+    &::after{
+        content: '/';
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+}
+
+.popup{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-height: 950px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+button{
+    padding: 0;
+    border: none;
+    background: initial;
+    font-size: 16px;
+    color: #545353;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+
+
+
+@import './registration.scss';
+@import './footer.scss';
+@import './header.scss';
+@import './blog-open.scss';
+@import './goods.scss';
+@import './good.scss';
+@import './popular.scss';
+@import './last.scss';
+@import './follow.scss';
+@import './author.scss';
+@import './error.scss';
+@import './popup.scss';
+@import './contacts.scss';
+@import './blog.scss';
+@import './main-page.scss';
+@import './basket.scss';
+
+@import './media.scss';

@@ -1,0 +1,42 @@
+.error__wrapper{
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+.error__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.error__wrapper-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error__status__title{
+    font-size: 288px;
+    color: #E0C0C3;
+    line-height: 280px;
+    & span{
+        font-size: 30px;
+    }
+}
+
+.error__status__subtitle{
+    font-size: 36px;
+    color: #C4C4C4;
+    line-height: 49px;
+    margin-bottom: 8px;
+}
+
+.error__status__text{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656D6D;
+    text-align: center;
+    & span{
+        color: blue;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,132 @@
+.last{
+    margin-bottom: 92px;
+}
+
+.last__title{
+    font-size: 18px;
+    line-height: 25px;
+    color: #545353;
+    margin-bottom: 24px;
+}
+
+.posts{
+    display: flex;
+}
+
+.author{
+    position: relative;
+    padding: 15px;
+    background: #E0C0C3;
+    border-radius: 10px;
+    max-width: 256px;
+    min-width: 256px;
+    height: 429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+}
+
+.author__pic{
+    position: absolute;
+    right: 0;
+    top: 13%;
+}
+
+.author__img{
+    position: relative;
+    z-index: 2;
+}
+
+.author-elipse-1{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    z-index: 1;
+    top: -40px;
+}
+.author-elipse-2{
+    position: absolute;
+    z-index: 1;
+    left: -56px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.author-elipse-3{
+    position: absolute;
+    z-index: 1;
+    bottom: -42px;
+    left: -21px;
+}
+
+.author__title{
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding-left: 8px;
+}
+
+.author__social__list{
+    padding-left:17px;
+}
+
+.author__social__list__item{
+    margin-bottom: 27px;
+    display: flex;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.author__about{
+    text-align: center;
+}
+
+.author__about__title{
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.author__about__text{
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.last__posts__list{
+    display: flex;
+}
+
+.last__posts__list__item{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.last__posts__img{
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+.last__posts__date{
+    font-size: 12px;
+    line-height: 17px;
+    color: #C4C4C4;
+    margin-bottom: 16px;
+    text-align: left;
+    padding-left: 14px;
+}
+
+.last__posts__title{
+    font-size: 18px;
+    line-height: 25px;
+    color: #545353;
+    margin-bottom: 16px;
+
+}
